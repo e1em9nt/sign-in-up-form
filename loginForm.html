@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Login Form</title>
+	<link rel="stylesheet" href="loginForm.css">
+</head>
+
+<body>
+	<main>
+		<section id="login-form">
+			<p class="sign-up-text">Sign Up</p>
+			<form id="login">
+				<input type="text"  placeholder="Username" name="usernameReg" id="input-name" class="inputs" required="required">
+				<input type="email" placeholder="Email@domain.com" name="emailReg" class="inputs" id="input-email" required="required">
+				<p class="email-not-valid hidden">E-mail address is not valid</p>
+				<input type="password" placeholder="Password" name="passwordReg" id="input-pswd" class="inputs" required="required">
+			
+				<div class="pswd-strength hidden">
+					<p>Your password contain:</p>
+					<p class="easy-pswd pswd-contain">Only letters/digits/symbols</p>
+					<p class="medium-pswd pswd-contain">Combination of letters-symbols/ <br>letter-digits/ digits-symbols</p>
+					<p class="strong-pswd pswd-contain">Letter, symbols and numbers</p>
+				</div>
+
+				<label for="confirm-pswd" class="confirm-pswd-text">Confirm password:</label>
+				<input type="password" placeholder="Password" name="confirm-pswd" id="confirm-pswd" class="inputs" required="required">
+				<p class="confirm-pswd-warn"></p>
+			</form>
+
+			<p class="more-info">Already here? <a href="signInForm.html" class="sign-in-link">Sign In!</a></p>
+
+			<button class="btn" type="submit" form="login">Sign Up</button>
+
+		</section>
+	</main>
+	<script type="text/javascript" src="loginForm.js"></script>
+</body>
+</html>
