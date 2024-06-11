@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+html {
+	font-size: 16px;
+	box-sizing: border-box;
+
+	background-color: #494d5f;
+}
+body {
+	margin-left: 10%; 
+	margin-right: 20%;
+}
+#sign-up-form {
+	position: absolute;
+	padding: 60px 0px;
+	width: 80%;
+	top: 20%;
+
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+
+	background-color: #725a7a;
+	border-radius: 40px;
+}
+.sign-up-text {
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.inputs {
+	display: block;
+	width: 30%;
+	margin: 10px auto;
+	padding: 10px;
+
+	border-style: none;
+	border-radius: 10px; 
+
+	font-size: 0.8rem;
+}
+.btn {
+	padding: 10px 30px;
+	margin: 30px auto 0px;
+
+	border-style: none;
+	border-radius: 10px;
+
+	display: block;
+
+	font-family: inherit;
+	background-color: #46485c;
+	color: inherit;
+}
+.btn:hover {
+	background-color: #3d3f52;
+	transform: scaleX(1.1);
+}
+.pswd-strength p, .email-not-valid {
+	padding-bottom: 10px;
+	margin: 7px;
+	margin-left: 36%;
+
+	text-align: left;
+	font-size: 0.9rem
+}
+.email-not-valid{
+	color: #d7415e;
+}
+
+.hidden {
+	display: none;
+}
+.more-info {
+	font-size: 0.6rem;
+	color: #9da6b8;
+	text-align: right;
+
+	display: inline-block;
+	width: 28%;
+}
+.sign-in-link {
+	color: white;
+	text-decoration: none;
+}
+.pswd-contain {
+	color: #9da6b8;
+}
+.confirm-pswd-text {
+	display: block;
+	text-align: left;
+	margin-left: 36%;
+	font-size: 0.9rem;
+}
+.confirm-pswd-warn {
+	font-size: 0.8rem;
+	color: #d7415e;
+	text-align: left;
+
+	margin-left: 36%;
+	margin-bottom: 5px;
+}
